@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function call(){
+            if(confirm("you hav unsaved messages, do you want to leave?"))
+           { alert("bye");
+            document.myform.submit();
+                    }
+                    else{
+                            alert("thanks for staying back");
+                    }
+        }
+    </script>
+</head>
+<body>
+<form action="demo.html" name="myform">enter comments
+    <textarea id=" comments"></textarea>
+    <input type="button" value="click"  onclick="call()">
+    </form>
+</body>
+</html>
