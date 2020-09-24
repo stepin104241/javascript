@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>datalist</h2>
+        choose city<input list="city" name="mcity"/>
+        <datalist id="city">
+            <option value="coorg"/>
+            <option value="bangalore"/>
+            <option value="madras"/>
+            <option value="pune"/>
+            <option value="cochin"/>
+
+        </datalist>
+        <h2>select</h2>
+        <select name="city">
+            <option value="coorg"/>coorg
+            <option value="bangalore"/>
+            <option label="chennai" value="madras"/>
+            <option value="pune"/>
+            <option value="cochin"/>
+
+        </select>
+        <input type="button" value="add"/>
+    </form>
+</body>
+</html>
